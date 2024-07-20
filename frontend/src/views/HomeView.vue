@@ -1,9 +1,14 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+<script setup>
+
+import LoginTab from "@/components/LoginTab.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+<div class=" border border-black bg-black">
+  <LoginTab/>
+</div>
 </template>
+
+<style scoped>
+
+</style>
