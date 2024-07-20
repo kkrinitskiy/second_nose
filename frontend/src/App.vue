@@ -1,10 +1,10 @@
 <script setup>
+import TodoCard from "@/components/TodoCard.vue";
 </script>
 
 <template>
-  <div class="bg-black">
-
-    <router-view class="h-screen w-screen"/>
+  <div class="font-Roboto">
+  <RouterView/>
   </div>
 </template>
 
